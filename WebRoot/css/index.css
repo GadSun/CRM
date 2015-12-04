@@ -1,0 +1,125 @@
+#container {
+	width: 1530px;
+	height: 1050px;
+	background-image: url(../images/23.jpg);
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main {
+	width: 300px;
+	height: 450px;
+	position: relative;
+	top: 15%;
+	left: 40%;
+	background-image: url(../images/main.jpg);
+	border-radius: 6px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#ltop {
+	width: 40px;
+	height: 40px;
+	border-radius: 6px;
+	position: relative;
+	background-position: -178px -141px;
+	background-image: url(../images/login.jpg);
+	background-repeat: no-repeat;
+	top: -15.5%;
+	left: 37.4%;
+}
+
+#lbottom {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background-position: -178px -207px;
+	top: 34.5%;
+	left: 37.4%;
+	background-image: url(../images/login.jpg);
+	background-repeat: no-repeat;
+	border-radius: 6px;
+}
+
+#Username {
+	position: absolute;
+	top: 28%;
+	left: 11%;
+	height: 40px;
+	width: 230px;
+	border-radius: 5px;
+	font-size: 20px;
+	text-indent: 20px;
+}
+
+#password {
+	position: absolute;
+	top: 45%;
+	left: 11%;
+	height: 40px;
+	width: 230px;
+	border-radius: 5px;
+	font-size: 20px;
+	text-indent: 20px;
+}
+
+#login {
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 80%;
+	left: 55%;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: rgb(86, 193, 225);
+	color: white;
+}
+
+#p1 {
+	font-weight: bolder;
+	font-size: 30px;
+	font-family: SimSun;
+	line-height: 100px;
+	text-indent: 30px;
+}
+
+#p2 {
+	font-size: 15px;
+	color: #82aebb;
+	position: absolute;
+	top:18%;
+	left:11%;
+}
+
+#errors {
+	display: block;
+	position: absolute;
+	color: #82aebb;
+	top: 55%;
+	left: 12%
+}
+
+#link {
+	font-size: 20px;
+	color: orange;
+	position: absolute;
+	top: 82%;
+	left: 15%;
+}
+
+#login:hover {
+	background-color: rgb(35, 160, 197);
+}
+
+#login:active {
+	background-color: rgb(86, 193, 225);
+}
+
+#link:hover {
+	color: purple
+}
+
+#link:active {
+	color: orange
+}

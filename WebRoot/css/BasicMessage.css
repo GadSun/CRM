@@ -1,0 +1,226 @@
+
+#main{
+	width: 100%;
+	height: 730px;
+	background-image: url(../images/basicmessage.jpg);
+	background-repeat: no-repeat;
+	background-position: 0.5% 2.5%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+#top{
+	width: 88.2%;
+	height: 13%;
+	border: 1px solid gray;
+	position: absolute;
+	z-index: 2;
+	left: 12%;
+	top: 2%;
+}
+#tleft{
+	width: 83%;
+	height: 91%;
+	position: absolute;
+	left: 0.5%;
+	top:4%;
+	font-size: 0.8em;
+	border:1px solid silver;
+}
+#tright{
+	width: 15%;
+	height: 91%;
+	border:1px solid silver;
+	position: absolute;
+	top: 4%;
+	left:84.3%;
+}
+#pinyin{
+	position: absolute;
+	top: 15%;
+	left: 1%;	
+}
+#saler{
+	width: 20%;
+	position: absolute;
+	top: 15%;
+	left: 27%;
+}
+#total_cost{
+	position: absolute;
+	top: 15%;
+	left: 53%;
+}
+#khtype{
+	position: absolute;
+	top: 15%;
+	left: 88%;
+}
+#tel{
+    position: absolute;
+	top: 55%;
+	left: 1%;
+}
+#contractname{
+	width: 20%;
+	position: absolute;
+	top: 55%;
+	left: 27%;
+}
+#remark{
+	position: absolute;
+	top: 55%;
+	left: 53%;
+}
+#hobby{
+	position: absolute;
+	top: 55%;
+	left: 88%;
+}
+.oneline{
+	width: 45%;
+	margin-left:1%;
+}
+#slcsaler{
+	width: 50%;
+	margin-left:1%;
+}
+#slccontractname{
+	width: 50%;
+	margin-left:1%;
+}
+.threeline{
+	width: 15%;
+	margin-left:1%;
+}
+#threeline_b{
+	width: 60%;
+	margin-left:1%;
+}
+#button1{
+	width: 43%;
+	height: 35%;
+	margin-left: 7px;
+	margin-top: 7px;
+	font-size: 0.8em;
+	color:white;
+	font-family: "黑体";
+	background-color:rgb(22,112,201);
+}
+#button2{
+	width: 43%;
+	height: 35%;
+	margin-left: 7px;
+	margin-top: 7px;
+	font-size: 0.8em;
+	color:white;
+	font-family: "黑体";
+	background-color:rgb(22,112,201);
+}
+#button3{
+	width: 43%;
+	height: 35%;
+	margin-left: 7px;
+	margin-top: 7px;
+	font-size: 0.8em;
+	color:white;
+	font-family: "黑体";
+	background-color:rgb(22,112,201);
+}
+#button4{
+	width: 43%;
+	height: 35%;
+	margin-left: 7px;
+	margin-top: 7px;
+	font-size: 0.7em;
+	color:white;
+	font-family: "黑体";
+	background-color:rgb(22,112,201);
+}
+#bottom{
+	width: 88%;
+	height: 78%;
+	border: 1px solid gray;
+	position: absolute;
+	z-index: 2;
+	left: 12%;
+	top: 21%;
+}
+#zs {
+	font-size: 0.8em;
+	position: absolute;
+	top: 16%;
+	left: 13%;
+}
+
+#zj {
+	font-size: 0.8em;
+	position: absolute;
+	top: 16%;
+	left: 19%;
+}
+
+#qt {
+	font-size: 0.8em;
+	position: absolute;
+	top: 16%;
+	left: 29%;
+}
+
+#cy {
+	font-size: 0.8em;
+	position: absolute;
+	top: 16%;
+	left: 40%;
+}
+
+#xy {
+	font-size: 0.8em;
+	position: absolute;
+	top: 16%;
+	left: 51%;
+}
+
+#qta {
+	font-size: 0.8em;
+	position: absolute;
+	top: 16%;
+	left: 62%;
+}
+#else{
+	font-size: 0.8em;
+	position: absolute;
+	top: 16%;
+	left: 63%;
+}
+#p1{
+	font-family:"微软雅黑";
+	font-size: 0.9em;
+}
+.tabhead{
+	font-size: 0.8em;
+	font-family: "微软雅黑";
+	background-color: rgb(22,112,201);
+	color: white;
+}
+.message{
+	font-size:0.8em;
+}
+#jump{
+	display: block;
+	position: absolute;
+	left: 86%;
+	top: 95%;
+	font-size: 0.8em;
+}
+#left{
+	width: 10%;
+	height: 30%;
+	position: absolute;
+	border-top-style: double;
+	border-color: rgb(22, 112, 201);
+	top: 23%;
+	left: 0.5%;
+	z-index: 2;
+}
+

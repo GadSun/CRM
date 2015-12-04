@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>KLServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.KLServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>KLUIServlet</servlet-name>
+    <servlet-class>com.team4.web.ui.KLUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>KLXFUIServlet</servlet-name>
+    <servlet-class>com.team4.web.ui.KLXFUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExcelServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.ExcelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>KLXFServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.KLXFServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HYGSUIServlet</servlet-name>
+    <servlet-class>com.team4.web.ui.HYGSUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HYGSServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.HYGSServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HYGS_HYKPServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.HYGS_HYKPServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HYGS_DFPEServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.HYGS_DFPEServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HYGS_HYXYJServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.HYGS_HYXYJServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MainPageUIServlet</servlet-name>
+    <servlet-class>com.team4.web.ui.MainPageUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>KLExcelServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.KLExcelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>KLXFExcelServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.KLXFExcelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HYGSExcelServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.HYGSExcelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>KLPrintServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.KLPrintServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>KLXFPrintServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.KLXFPrintServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HYGSPrintServlet</servlet-name>
+    <servlet-class>com.team4.web.controller.HYGSPrintServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>KLServlet</servlet-name>
+    <url-pattern>/servlet/KLServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>KLUIServlet</servlet-name>
+    <url-pattern>/servlet/KLUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>KLXFUIServlet</servlet-name>
+    <url-pattern>/servlet/KLXFUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExcelServlet</servlet-name>
+    <url-pattern>/servlet/ExcelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>KLXFServlet</servlet-name>
+    <url-pattern>/servlet/KLXFServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HYGSUIServlet</servlet-name>
+    <url-pattern>/servlet/HYGSUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HYGSServlet</servlet-name>
+    <url-pattern>/servlet/HYGSServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HYGS_HYKPServlet</servlet-name>
+    <url-pattern>/servlet/HYGS_HYKPServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HYGS_DFPEServlet</servlet-name>
+    <url-pattern>/servlet/HYGS_DFPEServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HYGS_HYXYJServlet</servlet-name>
+    <url-pattern>/servlet/HYGS_HYXYJServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainPageUIServlet</servlet-name>
+    <url-pattern>/servlet/MainPageUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>KLExcelServlet</servlet-name>
+    <url-pattern>/servlet/KLExcelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>KLXFExcelServlet</servlet-name>
+    <url-pattern>/servlet/KLXFExcelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HYGSExcelServlet</servlet-name>
+    <url-pattern>/servlet/HYGSExcelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>KLPrintServlet</servlet-name>
+    <url-pattern>/servlet/KLPrintServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>KLXFPrintServlet</servlet-name>
+    <url-pattern>/servlet/KLXFPrintServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HYGSPrintServlet</servlet-name>
+    <url-pattern>/servlet/HYGSPrintServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
